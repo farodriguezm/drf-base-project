@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.contrib.postgres.indexes import GinIndex
-from project_name.helpers import upload_to_uuid
+from {{ project_name }}.helpers import upload_to_uuid
 
 
 class Log(models.Model):
